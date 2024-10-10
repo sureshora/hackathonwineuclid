@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -39,3 +40,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # My Project
+=======
+# hackathonwineuclid
+A unforeseen issues in github in the "https://github.com/sureshora/hackathon1metagraph.git" Raised in GITHUB on 10-10-2024
+>>>>>>> 24ae371870ad99a77946c80b195ca390a59cac89
