@@ -1,0 +1,17 @@
+{
+	"ulid": "01J743G63WF88FBGKC03Y736GK",
+	"minTime": 1725559200418,
+	"maxTime": 1725566400000,
+	"stats": {
+		"numSamples": 250458,
+		"numSeries": 1482,
+		"numChunks": 2964
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01J743G63WF88FBGKC03Y736GK"
+		]
+	},
+	"version": 1
+}

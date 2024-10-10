@@ -1,0 +1,83 @@
+[
+  {
+    "city": "Mumbai",
+    "country": "IN",
+    "temperature": 27.99,
+    "humidity": 78,
+    "pm25": 21.51,
+    "co2": 600.82,
+    "timestamp": "2024-09-06T15:44:38.724Z"
+  },
+  {
+    "city": "New York",
+    "country": "US",
+    "temperature": 22.94,
+    "humidity": 72,
+    "pm25": 7.47,
+    "co2": 350.48,
+    "timestamp": "2024-09-06T16:27:35.340Z"
+  },
+  {
+    "city": "Los Angeles",
+    "country": "US",
+    "temperature": 29.86,
+    "humidity": 56,
+    "pm25": 18.56,
+    "co2": 587.46,
+    "timestamp": "2024-09-06T16:27:46.486Z"
+  },
+  {
+    "city": "New York",
+    "country": "US",
+    "temperature": 23.92,
+    "humidity": 73,
+    "pm25": 13.06,
+    "co2": 387.19,
+    "timestamp": "2024-09-06T22:09:55.623Z"
+  },
+  {
+    "city": "Mumbai",
+    "country": "IN",
+    "temperature": 26.99,
+    "humidity": 83,
+    "pm25": 8.11,
+    "co2": 313.76,
+    "timestamp": "2024-09-06T22:10:51.334Z"
+  },
+  {
+    "city": "New York",
+    "country": "US",
+    "temperature": 23.63,
+    "humidity": 42,
+    "pm25": 3.12,
+    "co2": 260.35,
+    "timestamp": "2024-09-09T18:21:56.424Z"
+  },
+  {
+    "city": "Los Angeles",
+    "country": "US",
+    "temperature": 38.28,
+    "humidity": 32,
+    "pm25": 10.25,
+    "co2": 240.33,
+    "timestamp": "2024-09-09T21:29:03.439Z"
+  },
+  {
+    "city": "London",
+    "country": "UK",
+    "temperature": 12.31,
+    "humidity": 83,
+    "pm25": 2.2,
+    "co2": 253.68,
+    "timestamp": "2024-09-09T21:32:39.561Z"
+  },
+  {
+    "city": "Mumbai",
+    "country": "IN",
+    "temperature": 27.99,
+    "humidity": 74,
+    "pm25": 17.84,
+    "co2": 587.46,
+    "timestamp": "2024-09-10T14:40:26.201Z"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "metagraph": {
+    "id": "DAG8iDzp7fx3mT54MLww9it266acb6hMwG5LUiuR",
+    "name": "nft",
+    "version": "1.0.0",
+    "default_restart_conditions": [
+      "SnapshotsStopped",
+      "UnhealthyNodes"
+    ],
+    "layers": {
+      "ml0": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9100,
+          "p2p": 9101,
+          "cli": 9102
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "cl1": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9200,
+          "p2p": 9201,
+          "cli": 9202
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "dl1": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9300,
+          "p2p": 9301,
+          "cli": 9302
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      }
+    },
+    "nodes": [
+      {
+        "ip": "",
+        "username": "",
+        "password": "",
+        "privateKeyPath": "",
+        "privateKeyPassword": "",
+        "key_file": {
+          "name": "token-key.p12",
+          "alias": "token-key",
+          "password": "password"
+        }
+      },
+      {
+        "ip": "",
+        "username": "",
+        "password": "",
+        "privateKeyPath": "",
+        "privateKeyPassword": "",
+        "key_file": {
+          "name": "token-key-1.p12",
+          "alias": "token-key-1",
+          "password": "password"
+        }
+      },
+      {
+        "ip": "",
+        "username": "",
+        "password": "",
+        "privateKeyPath": "",
+        "privateKeyPassword": "",
+        "key_file": {
+          "name": "token-key-1.p12",
+          "alias": "token-key-1",
+          "password": "password"
+        }
+      }
+    ]
+  },
+  "network": {
+    "name": "mainnet|integrationnet",
+    "nodes": [
+      {
+        "ip": "",
+        "port": "port_as_number",
+        "id": ""
+      },
+      {
+        "ip": "",
+        "port": "port_as_number",
+        "id": ""
+      },
+      {
+        "ip": "",
+        "port": "port_as_number",
+        "id": ""
+      }
+    ]
+  },
+  "check_healthy_interval_in_minutes": 5
+}

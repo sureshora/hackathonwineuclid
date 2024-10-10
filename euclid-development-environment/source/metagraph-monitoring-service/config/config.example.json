@@ -1,0 +1,102 @@
+{
+  "metagraph": {
+    "id": "DAG4dWrdALPQmvF5UBpuXrqdkMHea1H5f7rjb4qZ",
+    "name": "Metagraph Example",
+    "version": "v1.0.0",
+    "default_restart_conditions": [
+      "SnapshotsStopped",
+      "UnhealthyNodes"
+    ],
+    "layers": {
+      "ml0": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9100,
+          "p2p": 9101,
+          "cli": 9102
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "cl1": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9200,
+          "p2p": 9201,
+          "cli": 9202
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "dl1": {
+        "ignore_layer": true,
+        "ports": {
+          "public": 9300,
+          "p2p": 9301,
+          "cli": 9302
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      }
+    },
+    "nodes": [
+      {
+        "ip": "10.1.1.1",
+        "username": "ubuntu",
+        "password": "my-password",
+        "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
+        "key_file": {
+          "name": "my-key-name.p12",
+          "alias": "my-key-alias",
+          "password": "password"
+        }
+      },
+      {
+        "ip": "10.1.1.2",
+        "username": "ubuntu",
+        "password": "my-password",
+        "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
+        "key_file": {
+          "name": "my-key-name.p12",
+          "alias": "my-key-alias",
+          "password": "password"
+        }
+      },
+      {
+        "ip": "10.1.1.3",
+        "username": "ubuntu",
+        "password": "my-password",
+        "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
+        "key_file": {
+          "name": "my-key-name.p12",
+          "alias": "my-key-alias",
+          "password": "password"
+        }
+      }
+    ]
+  },
+  "network": {
+    "name": "integrationnet",
+    "nodes": [
+      {
+        "ip": "10.1.1.4",
+        "port": 9000,
+        "id": "e2f4496e5872682d7a55aa06e507a58e96b5d48a5286bfdff7ed780fa464d9e789b2760ecd840f4cb3ee6e1c1d81b2ee844c88dbebf149b1084b7313eb680714"
+      },
+      {
+        "ip": "10.1.1.5",
+        "port": 9000,
+        "id": "3458a688925a4bd89f2ac2c695362e44d2e0c2903bdbb41b341a4d39283b22d8c85b487bd33cc5d36dbe5e31b5b00a10a6eab802718ead4ed7192ade5a5d1941"
+      },
+      {
+        "ip": "10.1.1.6",
+        "port": 9000,
+        "id": "46daea11ca239cb8c0c8cdeb27db9dbe9c03744908a8a389a60d14df2ddde409260a93334d74957331eec1af323f458b12b3a6c3b8e05885608aae7e3a77eac7"
+      }
+    ]
+  },
+  "check_healthy_interval_in_minutes": 1
+}

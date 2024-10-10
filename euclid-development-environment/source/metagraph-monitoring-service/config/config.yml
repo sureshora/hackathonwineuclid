@@ -1,0 +1,15 @@
+metagraph:
+  nodes:
+    - ip: "192.168.0.200"
+      username: "nodeuser1"
+      privateKeyPath: "/path/to/private/key1"
+    - ip: "192.168.1.101"
+      username: "nodeuser2"
+      privateKeyPath: "/path/to/private/key2"
+network:
+  nodes:
+    - ip: "192.168.0.200"
+      id: "network-node-1"
+    - ip: "192.168.1.201"
+      id: "network-node-2"
+
